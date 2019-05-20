@@ -1,0 +1,133 @@
+body {
+    position: relative;
+}
+
+.slide {
+  margin-top: -520px;
+  margin-left: 145px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 550px;
+}
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.btnf {
+  background-color: transparent;
+  border: none;
+  color: #031666;
+  cursor: pointer;
+}
+
+h4.no-span {
+  display: table;
+  white-space: nowrap;
+}
+h4.no-span:before,
+h4.no-span:after {
+  border-top: 1px solid #7c7c7c;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 50%;
+}
+h4.no-span:before {
+  right: 1.5%;
+}
+h4.no-span:after {
+  left: 1.5%;
+}
+
+@media (min-width: 768px) {
+  .row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.panel {
+  width: 350px;
+  display: block;
+}
+
+.panel-top1 {
+  margin-top: 65px;
+}
+
+.panel-body1 {
+  padding: 25px 40px 15px 40px;
+}
+
+footer {
+  margin: 50px 20px 10px 20px;
+}
+
+.insa {
+  text-decoration: none;
+  color: #031666;
+  font-weight: bold;
+}
+
+.block {
+  display: block;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.item .img-responsive {
+  display: block;
+  margin-left: 156px;
+  margin-top: 2px;
+}
+
+.imgsize {
+  max-width: 175px;
+  max-height: 51px;
+}
+
+.getapp {
+  width: 350px;
+}
+
+.text-xs-left { text-align: left; }
+.text-xs-right { text-align: right; }
+.text-xs-center { text-align: center; }
+.text-xs-justify { text-align: justify; }
+.mx { margin: auto; margin-bottom: 30px; }
+
+@media (min-width: 768px) {
+    .text-sm-left { text-align: left; }
+    .text-sm-right { text-align: right; }
+    .text-sm-center { text-align: center; }
+    .text-sm-justify { text-align: justify; }
+    .mx { margin: auto; margin-bottom: 30px; }
+}
+
+@media (min-width: 992px) {
+    .text-md-left { text-align: left; }
+    .text-md-right { text-align: right; }
+    .text-md-center { text-align: center; }
+    .text-md-justify { text-align: justify; }
+    .mx { margin: auto; margin-bottom: 30px; }
+}
+
+@media (min-width: 1200px) {
+    .text-lg-left { text-align: left; }
+    .text-lg-right { text-align: right; }
+    .text-lg-center { text-align: center; }
+    .text-lg-justify { text-align: justify; }
+    .mx { margin-left: 0px; }
+}
